@@ -1,0 +1,45 @@
+{
+  "name": "css-houdini-mondrian",
+  "description": "A simple Mondrian generator built with CSS Houdini",
+  "license": "MIT",
+  "private": false,
+  "version": "0.0.1",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "main": "./dist/css-houdini-mondrian.umd.cjs",
+  "module": "./dist/css-houdini-mondrian.js",
+  "exports": {
+    ".": {
+      "import": "./dist/css-houdini-mondrian.js",
+      "require": "./dist/css-houdini-mondrian.umd.cjs"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/marcomaza92/css-houdini-mondrian.git"
+  },
+  "keywords": [
+    "Mondrian",
+    "Javascript",
+    "Worklet",
+    "CSS Houdini"
+  ],
+  "author": "Marco Maza",
+  "bugs": {
+    "url": "https://github.com/marcomaza92/css-houdini-mondrian/issues"
+  },
+  "homepage": "https://github.com/marcomaza92/css-houdini-mondrian#README",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.1.0"
+  }
+}
