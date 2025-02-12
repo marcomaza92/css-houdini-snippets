@@ -1,2 +1,2 @@
-import registerPaint from "./worklet";
-registerPaint();
+import mondrianWorklet from "./mondrian";
+mondrianWorklet();
