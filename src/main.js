@@ -1,2 +1,3 @@
 import mondrianWorklet from "./mondrian";
-mondrianWorklet();
+
+export { mondrianWorklet };

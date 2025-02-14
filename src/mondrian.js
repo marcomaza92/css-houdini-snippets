@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-undef
-export default mondrianWorklet = () =>
+const mondrianWorklet = () =>
   registerPaint(
     "mondrian",
     class {
@@ -75,3 +75,5 @@ export default mondrianWorklet = () =>
       }
     }
   );
+
+export default mondrianWorklet;

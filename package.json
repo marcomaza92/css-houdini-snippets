@@ -1,6 +1,6 @@
 {
-  "name": "css-houdini-mondrian",
-  "description": "A simple Mondrian generator built with CSS Houdini",
+  "name": "css-houdini-snippets",
+  "description": "CSS Houdini Snippets",
   "license": "MIT",
   "private": false,
   "version": "0.0.1",
@@ -8,12 +8,12 @@
     "dist"
   ],
   "type": "module",
-  "main": "./dist/css-houdini-mondrian.umd.cjs",
-  "module": "./dist/css-houdini-mondrian.js",
+  "main": "./dist/css-houdini-snippets.umd.cjs",
+  "module": "./dist/css-houdini-snippets.js",
   "exports": {
     ".": {
-      "import": "./dist/css-houdini-mondrian.js",
-      "require": "./dist/css-houdini-mondrian.umd.cjs"
+      "import": "./dist/css-houdini-snippets.js",
+      "require": "./dist/css-houdini-snippets.umd.cjs"
     }
   },
   "publishConfig": {
@@ -21,19 +21,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/marcomaza92/css-houdini-mondrian.git"
+    "url": "git+ssh://git@github.com/marcomaza92/css-houdini-snippets.git"
   },
   "keywords": [
-    "Mondrian",
     "Javascript",
-    "Worklet",
+    "Worklets",
     "CSS Houdini"
   ],
   "author": "Marco Maza",
   "bugs": {
-    "url": "https://github.com/marcomaza92/css-houdini-mondrian/issues"
+    "url": "https://github.com/marcomaza92/css-houdini-snippets/issues"
   },
-  "homepage": "https://github.com/marcomaza92/css-houdini-mondrian#README",
+  "homepage": "https://github.com/marcomaza92/css-houdini-snippets#README",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
