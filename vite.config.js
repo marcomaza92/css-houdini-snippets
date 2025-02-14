@@ -8,8 +8,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, "src/main.js"),
-      name: "CSSHoudiniMondrian",
-      fileName: "css-houdini-mondrian",
+      name: "CSSHoudiniSnippets",
+      fileName: "css-houdini-snippets",
     },
   },
 });
