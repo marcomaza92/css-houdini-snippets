@@ -1,5 +1,5 @@
-// eslint-disable-next-line no-undef
 const mondrianWorklet = () =>
+  // eslint-disable-next-line no-undef
   registerPaint(
     "mondrian",
     class {
